@@ -1,0 +1,24 @@
+{
+  "name": "sohamgreens/simple-mvc",
+  "description": "Simple MVC",
+  "type": "library",
+  "keywords": [
+    "mvc"
+  ],
+  "authors": [
+    {
+      "name": "Harish Chauhan",
+      "email": "harish282@gmail.com"
+    }
+  ],
+  "require": {
+  },
+  "autoload": {
+    "psr-4": {
+      "SohamGreens\\SimpleMvc\\": "src/"
+    }
+  },
+  "extra": {
+    
+  }
+}

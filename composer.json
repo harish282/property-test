@@ -1,0 +1,25 @@
+{
+    "description": "Test Project",
+    "repositories": [{
+        "type": "path",
+        "url": "./packages/sohamgreens/simple-mvc"
+    }],    
+    "require": {
+        "guzzlehttp/guzzle": "^7.0",
+        "vlucas/phpdotenv": "^5.4",
+        "sohamgreens/simple-mvc": "dev-main"
+    },
+    "autoload": {
+        "psr-4": {
+            "Lib\\": "lib/",
+            "App\\": "src/"
+        },
+        "files": [
+            "lib/helpers.php"
+        ]
+    },
+    "require-dev": {
+        "wanfeiyy/dd": "^1.0"
+    },
+    "minimum-stability": "dev"
+}
