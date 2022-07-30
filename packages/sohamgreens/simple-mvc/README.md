@@ -1,0 +1,1 @@
+If I had more time to do there are many things to work but at least I would implement server side paging.
